@@ -1,0 +1,173 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #0817eb;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #0817eb;
+}
+
+.btn-contact {
+    padding: 10px 20px;
+    border: 2px solid #0817eb;
+    color: #0817eb;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #0817eb;
+    color: white;
+}
+
+/* Section Home */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    border-radius: solid 15px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    color: #333;
+}
+
+.intro span {
+    color: #0817eb;
+}
+
+.profile-image img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0817eb;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0817eb;
+}
+
+/* Section À propos */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Section Réalisations */
+#realisations {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #0817eb;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
